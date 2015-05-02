@@ -6,9 +6,9 @@ var twilio = require('twilio'),
 // Create an express application
 var app = express();
 
-var twilio_SID = "ACb47e5c87efd45b887f4cd08a34a9b900";
-var twilio_TOKEN = "07411f104edfdff825cf7f230894a8a0";
-var twilio_APPSID = "AP20378ee853d9d1084de985f54b37d64a";
+var twilio_SID = "xxx";
+var twilio_TOKEN = "yyy";
+var twilio_APPSID = "zzz";
 
 var dev_Port;
 dev_Port = process.env.PORT || 1337;
